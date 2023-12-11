@@ -8,3 +8,9 @@ input.onButtonPressed(Button.A, function () {
     basic.showString("Sent, Door Unlocking.")
     radio.setFrequencyBand(60)
 })
+input.onButtonPressed(Button.B, function () {
+    radio.sendMessage(RadioMessage.Bell)
+    basic.showString("Bell")
+    radio.setFrequencyBand(60)
+})
+
