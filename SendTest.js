@@ -4,13 +4,10 @@ enum RadioMessage {
     Bell = 47979
 }
 input.onButtonPressed(Button.A, function () {
-    radio.sendMessage(RadioMessage.OllieOzMarthaChachiPoppyBobbySkullyEloiseIsaacLaura)
-    basic.showString("Sent, Door Unlocking.")
-    radio.setFrequencyBand(60)
+    radio.sendNumber(48735893)
+    basic.showString("Unlock")
 })
 input.onButtonPressed(Button.B, function () {
-    radio.sendMessage(RadioMessage.Bell)
+    radio.sendNumber(1)
     basic.showString("Bell")
-    radio.setFrequencyBand(60)
 })
-
