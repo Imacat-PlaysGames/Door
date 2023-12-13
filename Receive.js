@@ -1,7 +1,3 @@
-enum RadioMessage {
-    message1 = 49434,
-    OllieOzMarthaChachiPoppyBobbySkullyEloiseIsaacLaura = 54833
-}
 radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber == 48735893) {
         basic.showString("Received, Door unlocked.")
